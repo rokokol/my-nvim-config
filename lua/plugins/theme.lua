@@ -1,9 +1,8 @@
 return {
-  -- 1. Установка самого плагина Gruvbox
   {
     "ellisonleao/gruvbox.nvim",
-    lazy = false, -- Тема должна загружаться сразу при старте
-    priority = 1000, -- Ставим самый высокий приоритет загрузки
+    lazy = false,
+    priority = 1000,
     config = function()
       require("gruvbox").setup {
         terminal_colors = true,
@@ -27,7 +26,7 @@ return {
         palette_overrides = {},
         overrides = {},
         dim_inactive = false,
-        transparent_mode = true, -- ВОТ ОНО: включает прозрачность в самом плагине
+        transparent_mode = true,
       }
     end,
   },

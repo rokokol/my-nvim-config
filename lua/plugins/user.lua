@@ -18,6 +18,7 @@ return {
         allow_filetypes = {
           "python",
           "nix",
+          "matlab",
         },
       },
       disabled = {
